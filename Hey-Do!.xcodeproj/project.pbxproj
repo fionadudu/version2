@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		F279C23D1B04815200F766B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F279C23C1B04815200F766B5 /* AppDelegate.swift */; };
 		F279C2401B04815200F766B5 /* Hey_Do_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F279C23E1B04815200F766B5 /* Hey_Do_.xcdatamodeld */; };
-		F279C2421B04815200F766B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F279C2411B04815200F766B5 /* ViewController.swift */; };
+		F279C2421B04815200F766B5 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F279C2411B04815200F766B5 /* ChecklistViewController.swift */; };
 		F279C2451B04815200F766B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F279C2431B04815200F766B5 /* Main.storyboard */; };
 		F279C2471B04815200F766B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F279C2461B04815200F766B5 /* Images.xcassets */; };
 		F279C24A1B04815200F766B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F279C2481B04815200F766B5 /* LaunchScreen.xib */; };
 		F279C2561B04815200F766B5 /* Hey_Do_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F279C2551B04815200F766B5 /* Hey_Do_Tests.swift */; };
+		F279C2601B04915300F766B5 /* ChecklistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F279C25F1B04915300F766B5 /* ChecklistModel.swift */; };
+		F279C2621B04985E00F766B5 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F279C2611B04985E00F766B5 /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +33,15 @@
 		F279C23B1B04815200F766B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F279C23C1B04815200F766B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F279C23F1B04815200F766B5 /* Hey_Do_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hey_Do_.xcdatamodel; sourceTree = "<group>"; };
-		F279C2411B04815200F766B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F279C2411B04815200F766B5 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		F279C2441B04815200F766B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F279C2461B04815200F766B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F279C2491B04815200F766B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F279C24F1B04815200F766B5 /* Hey-Do!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hey-Do!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F279C2541B04815200F766B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F279C2551B04815200F766B5 /* Hey_Do_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hey_Do_Tests.swift; sourceTree = "<group>"; };
+		F279C25F1B04915300F766B5 /* ChecklistModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistModel.swift; sourceTree = "<group>"; };
+		F279C2611B04985E00F766B5 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				F279C23C1B04815200F766B5 /* AppDelegate.swift */,
-				F279C2411B04815200F766B5 /* ViewController.swift */,
+				F279C2411B04815200F766B5 /* ChecklistViewController.swift */,
+				F279C25F1B04915300F766B5 /* ChecklistModel.swift */,
 				F279C2431B04815200F766B5 /* Main.storyboard */,
+				F279C2611B04985E00F766B5 /* AddItemViewController.swift */,
 				F279C2461B04815200F766B5 /* Images.xcassets */,
 				F279C2481B04815200F766B5 /* LaunchScreen.xib */,
 				F279C23E1B04815200F766B5 /* Hey_Do_.xcdatamodeld */,
@@ -215,8 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F279C2421B04815200F766B5 /* ViewController.swift in Sources */,
+				F279C2621B04985E00F766B5 /* AddItemViewController.swift in Sources */,
+				F279C2421B04815200F766B5 /* ChecklistViewController.swift in Sources */,
 				F279C23D1B04815200F766B5 /* AppDelegate.swift in Sources */,
+				F279C2601B04915300F766B5 /* ChecklistModel.swift in Sources */,
 				F279C2401B04815200F766B5 /* Hey_Do_.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
